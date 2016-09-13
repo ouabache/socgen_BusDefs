@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:abstractionDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:kactus2="http://kactus2.cs.tut.fi" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014/ http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+	<ipxact:vendor>opencores.org</ipxact:vendor>
+	<ipxact:library>socgen_Busdefs</ipxact:library>
+	<ipxact:name>pad_ring.absDef</ipxact:name>
+	<ipxact:version>bus</ipxact:version>
+	<ipxact:busType vendor="opencores.org" library="socgen_Busdefs" name="pad_ring" version="bus"/>
+	<ipxact:ports>
+		<ipxact:port>
+			<ipxact:logicalName>PAD_io</ipxact:logicalName>
+			<ipxact:wire>
+				<ipxact:onMaster>
+					<ipxact:presence>optional</ipxact:presence>
+					<ipxact:width>1</ipxact:width>
+					<ipxact:direction>inout</ipxact:direction>
+				</ipxact:onMaster>
+			</ipxact:wire>
+		</ipxact:port>
+		<ipxact:port>
+			<ipxact:logicalName>PAD_in</ipxact:logicalName>
+			<ipxact:wire>
+				<ipxact:onMaster>
+					<ipxact:presence>optional</ipxact:presence>
+					<ipxact:width>1</ipxact:width>
+					<ipxact:direction>in</ipxact:direction>
+				</ipxact:onMaster>
+			</ipxact:wire>
+		</ipxact:port>
+		<ipxact:port>
+			<ipxact:logicalName>PAD_out</ipxact:logicalName>
+			<ipxact:wire>
+				<ipxact:onMaster>
+					<ipxact:presence>optional</ipxact:presence>
+					<ipxact:width>1</ipxact:width>
+					<ipxact:direction>out</ipxact:direction>
+				</ipxact:onMaster>
+			</ipxact:wire>
+		</ipxact:port>
+	</ipxact:ports>
+	<ipxact:vendorExtensions>
+		<kactus2:version>3,1,2,0</kactus2:version>
+	</ipxact:vendorExtensions>
+</ipxact:abstractionDefinition>
